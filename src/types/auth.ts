@@ -9,6 +9,7 @@ export type UserSignupData = SignupFormData & {
   registrationKey: string;
 };
 
+
 export type SendOtpPreregisterResponse = ApiResponse<{
   email: string;
   message: string;
